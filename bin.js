@@ -32,7 +32,6 @@ async function beu(dir, url, freq) {
 	let ignore = {
 		"/files.json": true,
 		"/manifest.json": true,
-		"/sw-install.js": true,
 		"/sw.js": true,
 	};
 	if (!(await fs.exists(dir))) throw `dir ${dir} not exists`;

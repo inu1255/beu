@@ -1,6 +1,6 @@
 {
   "name": "beu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "browser extension update",
   "bin": {
     "beu": "bin.js"

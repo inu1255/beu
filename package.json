@@ -1,0 +1,33 @@
+{
+  "name": "beu",
+  "version": "1.0.0",
+  "description": "browser extension update",
+  "bin": {
+    "beu": "bin.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inu1255",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  },
+  "main": "bin.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inu1255/beu.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "bugs": {
+    "url": "https://github.com/inu1255/beu/issues"
+  },
+  "homepage": "https://github.com/inu1255/beu#readme"
+}
